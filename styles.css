@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background-color: #899A97;
+    font-family: 'Cute Font', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:30px;
+}
+#ulli{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+#ulli a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.267);
+}
+
+html{
+    font-size:12px;
+    font-family: "Lato", Arial, sans-serif;
+}
+
+.center{
+
+    left:0;
+    line-height: 200px;
+    margin-top: -100px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
+
+.center1{
+
+    left:0;
+    text-align: center;
+ 
+
+}
+
+.고시원categories{
+    margin: 70px 0;
+}
+.원룸categories{
+    margin: 140px 0;
+}
+.header .row1{
+    margin-top:140px;
+}
+
+img.goshiwon{
+    width:350px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#content{
+    max-height: 0px;
+    overflow:hidden; 
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#content.open{
+    max-height: 100000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+#oneroomcontent{
+    max-height: 0px;
+    overflow:hidden; 
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#oneroomcontent.open{
+    max-height: 100000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+#show-more{
+    background:darkcyan;
+    cursor:pointer;
+}
+#oneroomshow-more{
+    background: darkcyan;
+    cursor: pointer;
+}
